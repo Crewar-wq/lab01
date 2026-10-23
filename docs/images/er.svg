@@ -1,0 +1,98 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1030" viewBox="0 0 1600 1030">
+<rect width="1600" height="1030" fill="white"/>
+<style>text{font-family:Arial,sans-serif;fill:#17202a}.head{font-weight:700;font-size:24px}.field{font-size:22px}.label{font-size:23px;font-weight:700}.note{font-size:22px}.edge{fill:none;stroke:#465568;stroke-width:2.5;stroke-linejoin:round}.box{fill:#fff;stroke:#465568;stroke-width:2}.fill{fill:#eaf0f5}</style>
+<path class="edge" d="M 360 113 H 420"/>
+<rect x="366" y="76" width="33" height="27" fill="white"/><text class="label" x="369" y="98">1</text>
+<rect x="362" y="120" width="58" height="27" fill="white"/><text class="label" x="365" y="142">0..*</text>
+<path class="edge" d="M 185 190 V 272 H 390 V 419 H 420"/>
+<rect x="192" y="202" width="33" height="27" fill="white"/><text class="label" x="195" y="224">1</text>
+<rect x="358" y="383" width="58" height="27" fill="white"/><text class="label" x="361" y="405">0..*</text>
+<path class="edge" d="M 585 221 V 350"/>
+<rect x="593" y="232" width="33" height="27" fill="white"/><text class="label" x="596" y="254">1</text>
+<rect x="593" y="300" width="58" height="27" fill="white"/><text class="label" x="596" y="322">0..*</text>
+<path class="edge" d="M 975 159 V 263 H 690 V 350"/>
+<rect x="982" y="172" width="33" height="27" fill="white"/><text class="label" x="985" y="194">1</text>
+<rect x="697" y="300" width="58" height="27" fill="white"/><text class="label" x="700" y="322">0..*</text>
+<path class="edge" d="M 195 470 V 690"/>
+<rect x="203" y="496" width="33" height="27" fill="white"/><text class="label" x="206" y="518">1</text>
+<rect x="203" y="629" width="58" height="27" fill="white"/><text class="label" x="206" y="651">0..*</text>
+<path class="edge" d="M 585 562 V 690"/>
+<rect x="593" y="575" width="33" height="27" fill="white"/><text class="label" x="596" y="597">1</text>
+<rect x="593" y="629" width="58" height="27" fill="white"/><text class="label" x="596" y="651">0..*</text>
+<path class="edge" d="M 360 794 H 420"/>
+<rect x="368" y="756" width="33" height="27" fill="white"/><text class="label" x="371" y="778">1</text>
+<rect x="362" y="802" width="58" height="27" fill="white"/><text class="label" x="365" y="824">0..*</text>
+<path class="edge" d="M 750 425 H 810"/>
+<rect x="757" y="388" width="33" height="27" fill="white"/><text class="label" x="760" y="410">1</text>
+<rect x="754" y="434" width="58" height="27" fill="white"/><text class="label" x="757" y="456">0..1</text>
+<path class="edge" d="M 712 562 V 620 H 1365 V 562"/>
+<rect x="722" y="573" width="33" height="27" fill="white"/><text class="label" x="725" y="595">1</text>
+<rect x="1375" y="576" width="58" height="27" fill="white"/><text class="label" x="1378" y="598">0..1</text>
+<path class="edge" d="M 1365 190 V 350"/>
+<rect x="1373" y="208" width="33" height="27" fill="white"/><text class="label" x="1376" y="230">1</text>
+<rect x="1373" y="300" width="58" height="27" fill="white"/><text class="label" x="1376" y="322">0..*</text>
+<rect class="box" x="30" y="40" width="330" height="150" rx="4"/><rect class="fill" x="31" y="41" width="328" height="42"/><text class="head" x="45" y="70">Customer</text>
+<path class="edge" d="M 30 84 H 360"/>
+<text class="field" x="45" y="113">PK Id</text>
+<text class="field" x="45" y="144">FullName</text>
+<text class="field" x="45" y="175">UQ Email</text>
+<rect class="box" x="420" y="40" width="330" height="181" rx="4"/><rect class="fill" x="421" y="41" width="328" height="42"/><text class="head" x="435" y="70">Address</text>
+<path class="edge" d="M 420 84 H 750"/>
+<text class="field" x="435" y="113">PK Id</text>
+<text class="field" x="435" y="144">FK CustomerId</text>
+<text class="field" x="435" y="175">City</text>
+<text class="field" x="435" y="206">Street</text>
+<rect class="box" x="810" y="40" width="330" height="119" rx="4"/><rect class="fill" x="811" y="41" width="328" height="42"/><text class="head" x="825" y="70">OrderStatus</text>
+<path class="edge" d="M 810 84 H 1140"/>
+<text class="field" x="825" y="113">PK Id</text>
+<text class="field" x="825" y="144">UQ Name</text>
+<rect class="box" x="1200" y="40" width="330" height="150" rx="4"/><rect class="fill" x="1201" y="41" width="328" height="42"/><text class="head" x="1215" y="70">DeliveryMethod</text>
+<path class="edge" d="M 1200 84 H 1530"/>
+<text class="field" x="1215" y="113">PK Id</text>
+<text class="field" x="1215" y="144">UQ Name</text>
+<text class="field" x="1215" y="175">PriceCents</text>
+<rect class="box" x="30" y="350" width="330" height="119" rx="4"/><rect class="fill" x="31" y="351" width="328" height="42"/><text class="head" x="45" y="380">Category</text>
+<path class="edge" d="M 30 394 H 360"/>
+<text class="field" x="45" y="423">PK Id</text>
+<text class="field" x="45" y="454">UQ Name</text>
+<rect class="box" x="420" y="350" width="330" height="212" rx="4"/><rect class="fill" x="421" y="351" width="328" height="42"/><text class="head" x="435" y="380">SalesOrder</text>
+<path class="edge" d="M 420 394 H 750"/>
+<text class="field" x="435" y="423">PK Id</text>
+<text class="field" x="435" y="454">FK CustomerId</text>
+<text class="field" x="435" y="485">FK AddressId</text>
+<text class="field" x="435" y="516">FK StatusId</text>
+<text class="field" x="435" y="547">CreatedUtc</text>
+<rect class="box" x="810" y="350" width="330" height="181" rx="4"/><rect class="fill" x="811" y="351" width="328" height="42"/><text class="head" x="825" y="380">Payment</text>
+<path class="edge" d="M 810 394 H 1140"/>
+<text class="field" x="825" y="423">PK Id</text>
+<text class="field" x="825" y="454">FK UQ OrderId</text>
+<text class="field" x="825" y="485">AmountCents</text>
+<text class="field" x="825" y="516">PaidUtc</text>
+<rect class="box" x="1200" y="350" width="330" height="212" rx="4"/><rect class="fill" x="1201" y="351" width="328" height="42"/><text class="head" x="1215" y="380">Shipment</text>
+<path class="edge" d="M 1200 394 H 1530"/>
+<text class="field" x="1215" y="423">PK Id</text>
+<text class="field" x="1215" y="454">FK UQ OrderId</text>
+<text class="field" x="1215" y="485">FK DeliveryMethodId</text>
+<text class="field" x="1215" y="516">UQ TrackingNumber</text>
+<text class="field" x="1215" y="547">ShippedUtc</text>
+<rect class="box" x="30" y="690" width="330" height="212" rx="4"/><rect class="fill" x="31" y="691" width="328" height="42"/><text class="head" x="45" y="720">Product</text>
+<path class="edge" d="M 30 734 H 360"/>
+<text class="field" x="45" y="763">PK Id</text>
+<text class="field" x="45" y="794">FK CategoryId</text>
+<text class="field" x="45" y="825">Name</text>
+<text class="field" x="45" y="856">UnitPriceCents</text>
+<text class="field" x="45" y="887">StockQuantity</text>
+<rect class="box" x="420" y="690" width="330" height="212" rx="4"/><rect class="fill" x="421" y="691" width="328" height="42"/><text class="head" x="435" y="720">OrderItem</text>
+<path class="edge" d="M 420 734 H 750"/>
+<text class="field" x="435" y="763">PK Id</text>
+<text class="field" x="435" y="794">FK OrderId</text>
+<text class="field" x="435" y="825">FK ProductId</text>
+<text class="field" x="435" y="856">Quantity</text>
+<text class="field" x="435" y="887">UnitPriceCents</text>
+<text class="note" x="810" y="727">PK — первичный ключ; FK — внешний ключ</text>
+<text class="note" x="810" y="766">UQ — уникальное значение</text>
+<text class="note" x="810" y="805">1 — один; 0..* — ноль или несколько</text>
+<text class="note" x="810" y="844">0..1 — ноль или один</text>
+<text class="note" x="810" y="883">SalesOrder: составной FK (CustomerId, AddressId)</text>
+<text class="note" x="810" y="922">OrderItem: UQ (OrderId, ProductId)</text>
+<text class="note" x="30" y="1000">Физическая модель SQLite   •   10 сущностей   •   BLL требует хотя бы одну позицию в заказе</text></svg>

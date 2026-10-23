@@ -1,0 +1,12 @@
+PASS: 10 SQL tables and no broken foreign keys
+PASS: Order total, persisted lines and stock
+PASS: Repeated product is merged into one order line
+PASS: Empty order is rejected
+PASS: Zero and negative quantities are rejected
+PASS: Another customer's address is rejected
+PASS: Missing customer and product are rejected
+PASS: Insufficient stock is rejected without writes
+PASS: DAL transaction rolls back partial stock changes
+PASS: Database rejects address owned by another customer
+PASS: Initialization preserves stock and orders
+CHECKS PASSED: 11

@@ -1,0 +1,13 @@
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  OrderFlow.Domain -> /workspace/scratch/ea710c6441cb/lab01/src/OrderFlow.Domain/bin/Release/net8.0/OrderFlow.Domain.dll
+  OrderFlow.DAL -> /workspace/scratch/ea710c6441cb/lab01/src/OrderFlow.DAL/bin/Release/net8.0/OrderFlow.DAL.dll
+  OrderFlow.BLL -> /workspace/scratch/ea710c6441cb/lab01/src/OrderFlow.BLL/bin/Release/net8.0/OrderFlow.BLL.dll
+  OrderFlow.UI -> /workspace/scratch/ea710c6441cb/lab01/src/OrderFlow.UI/bin/Release/net8.0/OrderFlow.UI.dll
+  OrderFlow.Checks -> /workspace/scratch/ea710c6441cb/lab01/tests/OrderFlow.Checks/bin/Release/net8.0/OrderFlow.Checks.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:06.99

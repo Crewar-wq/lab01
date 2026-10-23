@@ -1,0 +1,14 @@
+SQL TABLES: 10
+  Address
+  Category
+  Customer
+  DeliveryMethod
+  OrderItem
+  OrderStatus
+  Payment
+  Product
+  SalesOrder
+  Shipment
+FOREIGN KEY VIOLATIONS: 0
+INVALID RECORDS REJECTED: 5
+SCHEMA CHECK PASSED

@@ -1,0 +1,19 @@
+name: Build and verify
+
+on: [push, pull_request]
+
+permissions:
+  contents: read
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: '8.0.x'
+      - run: dotnet build OrderFlow.sln --configuration Release
+      - run: dotnet run --project tests/OrderFlow.Checks --configuration Release --no-build
+      - run: python3 scripts/check_schema.py
+      - run: dotnet run --project src/OrderFlow.UI --configuration Release --no-build -- artifacts/ci-demo.db

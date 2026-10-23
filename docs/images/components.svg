@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="1020" viewBox="0 0 1400 1020">
+<rect width="1400" height="1020" fill="white"/>
+<style>text{font-family:Arial,sans-serif;fill:#17202a}.head{font-weight:700;font-size:24px}.field{font-size:22px}.label{font-size:23px;font-weight:700}.note{font-size:22px}.edge{fill:none;stroke:#465568;stroke-width:2.5;stroke-linejoin:round}.box{fill:#fff;stroke:#465568;stroke-width:2}.fill{fill:#eaf0f5}</style>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="10" markerHeight="10" orient="auto"><path d="M 1 1 L 9 5 L 1 9" fill="none" stroke="#465568" stroke-width="1.3"/></marker></defs>
+<path class="edge" d="M 560 225 V 280 H 295 V 350" marker-end="url(#arrow)"/>
+<path class="edge" d="M 840 225 V 280 H 1105 V 350" marker-end="url(#arrow)"/>
+<path class="edge" d="M 540 424 H 860" marker-end="url(#arrow)"/>
+<path class="edge" d="M 295 495 V 610 H 585 V 720" marker-end="url(#arrow)"/>
+<path class="edge" d="M 1000 495 V 650 H 825 V 720" marker-end="url(#arrow)"/>
+<path class="edge" d="M 1195 495 V 740" marker-end="url(#arrow)" stroke-dasharray="10 7"/>
+<rect class="box" x="455" y="80" width="490" height="145" rx="4"/><rect class="fill" x="456" y="81" width="488" height="50"/><text class="head" x="477" y="113">OrderFlow.UI</text>
+<text class="field" x="477" y="164">Консольный интерфейс</text>
+<text class="field" x="477" y="194">Сборка зависимостей в Program.cs</text>
+<rect class="box" x="50" y="350" width="490" height="145" rx="4"/><rect class="fill" x="51" y="351" width="488" height="50"/><text class="head" x="72" y="383">OrderFlow.BLL</text>
+<text class="field" x="72" y="434">OrderService</text>
+<text class="field" x="72" y="464">Проверки и расчёт суммы</text>
+<rect class="box" x="860" y="350" width="490" height="145" rx="4"/><rect class="fill" x="861" y="351" width="488" height="50"/><text class="head" x="882" y="383">OrderFlow.DAL</text>
+<text class="field" x="882" y="434">IShopRepository, SqliteShopRepository</text>
+<text class="field" x="882" y="464">SQL и транзакции SQLite</text>
+<rect class="box" x="455" y="720" width="490" height="145" rx="4"/><rect class="fill" x="456" y="721" width="488" height="50"/><text class="head" x="477" y="753">OrderFlow.Domain</text>
+<text class="field" x="477" y="804">10 моделей предметной области</text>
+<text class="field" x="477" y="834">Нет ссылок на остальные проекты</text>
+<rect class="box" x="1030" y="740" width="320" height="125" rx="4"/><rect class="fill" x="1031" y="741" width="318" height="50"/><text class="head" x="1052" y="773">SQLite</text>
+<text class="field" x="1052" y="824">10 таблиц</text>
+<text class="field" x="1052" y="854">Файл .db</text>
+<text class="note" x="65" y="280">Обращение к BLL</text>
+<text class="note" x="1000" y="260">Инициализация DAL</text>
+<text class="note" x="570" y="408">IShopRepository</text>
+<text class="note" x="65" y="595">Общие модели</text>
+<text class="note" x="860" y="700">Общие модели</text>
+<text class="note" x="50" y="953">Сплошная стрелка — ProjectReference; пунктир — соединение с базой данных.</text>
+<text class="note" x="50" y="989">Вызовы при оформлении заказа: UI → BLL → DAL → SQLite. Циклических ссылок нет.</text></svg>
