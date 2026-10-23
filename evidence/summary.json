@@ -1,0 +1,18 @@
+{
+  "executed_on": "2026-10-23",
+  "sdk": "8.0.426",
+  "runtime": "8.0.32",
+  "language": "C# 12",
+  "configuration": "Release",
+  "build_errors": 0,
+  "build_warnings": 0,
+  "csharp_checks_passed": 11,
+  "sql_entities": 10,
+  "sql_invalid_records_rejected": 5,
+  "repository": "https://github.com/Crewar-wq/lab01",
+  "source_commit": "ec16dc8d3de15d19dbb62303c52f285daf891661",
+  "github_actions_status": "success",
+  "github_actions_run": "https://github.com/Crewar-wq/lab01/actions/runs/39987967089",
+  "report_pages": 12
+}
+
